@@ -1,0 +1,352 @@
+[2024-11-04T12:31:25.683-0800] {processor.py:186} INFO - Started process (PID=49875) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:31:25.684-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:31:25.684-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:31:25.684-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:31:25.690-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:31:25.945-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:31:25.945-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:31:26.150-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:31:26.150-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:31:26.153-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:31:26.153-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:31:26.160-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.478 seconds
+[2024-11-04T12:42:44.483-0800] {processor.py:186} INFO - Started process (PID=50265) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:42:44.486-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:42:44.486-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:42:44.486-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:42:44.491-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:42:44.658-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:42:44.658-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:42:44.837-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:42:44.837-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:42:44.841-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:42:44.841-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:42:44.848-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.367 seconds
+[2024-11-04T12:44:29.124-0800] {processor.py:186} INFO - Started process (PID=50386) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:44:29.124-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:44:29.125-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:44:29.125-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:44:29.132-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:44:29.278-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:44:29.278-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:44:29.472-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:44:29.471-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:44:29.476-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:44:29.476-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:44:29.482-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.360 seconds
+[2024-11-04T12:46:57.544-0800] {processor.py:186} INFO - Started process (PID=50624) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:46:57.545-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:46:57.546-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:46:57.546-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:46:57.552-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:46:57.715-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:46:57.715-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:46:57.900-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:46:57.900-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:46:57.904-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:46:57.904-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:46:57.912-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.369 seconds
+[2024-11-04T12:49:27.877-0800] {processor.py:186} INFO - Started process (PID=50822) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:49:27.878-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:49:27.878-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:49:27.878-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:49:27.885-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:49:28.061-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:49:28.061-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:49:28.247-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:49:28.247-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:49:28.251-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:49:28.251-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:49:28.257-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.382 seconds
+[2024-11-04T12:51:56.000-0800] {processor.py:186} INFO - Started process (PID=51041) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:51:56.001-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:51:56.002-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:51:56.001-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:51:56.009-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:51:56.184-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:51:56.184-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:51:56.369-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:51:56.369-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:51:56.375-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:51:56.375-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:51:56.383-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.384 seconds
+[2024-11-04T12:54:28.727-0800] {processor.py:186} INFO - Started process (PID=51234) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:54:28.729-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:54:28.729-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:54:28.729-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:54:28.738-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:54:28.950-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:54:28.950-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:54:29.182-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:54:29.182-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:54:29.185-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:54:29.185-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:54:29.191-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.465 seconds
+[2024-11-04T12:57:01.402-0800] {processor.py:186} INFO - Started process (PID=51414) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:57:01.403-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:57:01.403-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:57:01.403-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:57:01.410-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:57:01.554-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:57:01.554-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:57:01.746-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:57:01.746-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:57:01.749-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:57:01.749-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:57:01.756-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.355 seconds
+[2024-11-04T12:59:25.267-0800] {processor.py:186} INFO - Started process (PID=51603) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:59:25.268-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T12:59:25.268-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:59:25.268-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:59:25.276-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T12:59:25.448-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:59:25.448-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T12:59:25.635-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:59:25.635-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T12:59:25.638-0800] {logging_mixin.py:190} INFO - [2024-11-04T12:59:25.638-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T12:59:25.646-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.380 seconds
+[2024-11-04T13:01:57.217-0800] {processor.py:186} INFO - Started process (PID=51792) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:01:57.218-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:01:57.218-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:01:57.218-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:01:57.226-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:01:57.625-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:01:57.625-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:01:57.842-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:01:57.842-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:01:57.846-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:01:57.846-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:01:57.853-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.638 seconds
+[2024-11-04T13:04:24.812-0800] {processor.py:186} INFO - Started process (PID=51995) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:04:24.813-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:04:24.813-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:04:24.813-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:04:24.821-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:04:24.972-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:04:24.971-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:04:25.170-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:04:25.170-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:04:25.175-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:04:25.175-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:04:25.181-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.371 seconds
+[2024-11-04T13:06:48.079-0800] {processor.py:186} INFO - Started process (PID=52200) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:06:48.080-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:06:48.081-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:06:48.080-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:06:48.087-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:06:48.234-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:06:48.234-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:06:48.431-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:06:48.431-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:06:48.435-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:06:48.435-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:06:48.441-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.364 seconds
+[2024-11-04T13:09:12.587-0800] {processor.py:186} INFO - Started process (PID=52391) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:09:12.587-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:09:12.588-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:09:12.588-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:09:12.595-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:09:12.744-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:09:12.744-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:09:12.965-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:09:12.965-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:09:12.971-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:09:12.971-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:09:12.980-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.394 seconds
+[2024-11-04T13:11:34.799-0800] {processor.py:186} INFO - Started process (PID=52596) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:11:34.801-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:11:34.801-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:11:34.801-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:11:34.807-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:11:34.950-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:11:34.949-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:11:35.139-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:11:35.139-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:11:35.143-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:11:35.143-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:11:35.150-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.351 seconds
+[2024-11-04T13:13:58.905-0800] {processor.py:186} INFO - Started process (PID=52779) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:13:58.906-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:13:58.906-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:13:58.906-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:13:58.913-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:13:59.031-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:13:59.031-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:13:59.211-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:13:59.210-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:13:59.214-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:13:59.214-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:13:59.220-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.317 seconds
+[2024-11-04T13:16:14.111-0800] {processor.py:186} INFO - Started process (PID=52947) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:16:14.112-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:16:14.113-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:16:14.113-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:16:14.120-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:16:14.269-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:16:14.269-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:16:14.455-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:16:14.454-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:16:14.460-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:16:14.460-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:16:14.469-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.359 seconds
+[2024-11-04T13:18:38.683-0800] {processor.py:186} INFO - Started process (PID=53123) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:18:38.684-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:18:38.685-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:18:38.685-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:18:38.692-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:18:38.843-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:18:38.843-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:18:39.022-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:18:39.022-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:18:39.026-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:18:39.026-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:18:39.033-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.351 seconds
+[2024-11-04T13:21:03.781-0800] {processor.py:186} INFO - Started process (PID=53292) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:21:03.782-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:21:03.782-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:21:03.782-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:21:03.790-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:21:03.948-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:21:03.948-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:21:04.136-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:21:04.136-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:21:04.140-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:21:04.140-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:21:04.147-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.367 seconds
+[2024-11-04T13:23:29.006-0800] {processor.py:186} INFO - Started process (PID=53456) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:23:29.008-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:23:29.008-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:23:29.008-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:23:29.015-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:23:29.159-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:23:29.159-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:23:29.356-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:23:29.356-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:23:29.360-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:23:29.360-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:23:29.366-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.360 seconds
+[2024-11-04T13:25:47.946-0800] {processor.py:186} INFO - Started process (PID=53644) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:25:47.947-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:25:47.947-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:25:47.947-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:25:47.954-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:25:48.104-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:25:48.104-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:25:48.337-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:25:48.337-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:25:48.343-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:25:48.343-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:25:48.377-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.432 seconds
+[2024-11-04T13:28:14.103-0800] {processor.py:186} INFO - Started process (PID=53820) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:28:14.103-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:28:14.104-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:28:14.103-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:28:14.111-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:28:14.284-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:28:14.283-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:28:14.472-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:28:14.471-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:28:14.476-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:28:14.475-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:28:14.482-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.380 seconds
+[2024-11-04T13:30:36.371-0800] {processor.py:186} INFO - Started process (PID=54000) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:30:36.372-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:30:36.372-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:30:36.372-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:30:36.380-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:30:36.552-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:30:36.552-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:30:36.761-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:30:36.760-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:30:36.766-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:30:36.766-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:30:36.774-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.404 seconds
+[2024-11-04T13:33:05.413-0800] {processor.py:186} INFO - Started process (PID=54171) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:33:05.414-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:33:05.415-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:33:05.415-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:33:05.422-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:33:05.645-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:33:05.645-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:33:05.848-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:33:05.848-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:33:05.853-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:33:05.853-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:33:05.859-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.447 seconds
+[2024-11-04T13:35:27.407-0800] {processor.py:186} INFO - Started process (PID=54369) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:35:27.408-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:35:27.409-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:35:27.409-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:35:27.415-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:35:27.593-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:35:27.593-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:35:27.773-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:35:27.773-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:35:27.779-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:35:27.779-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:35:27.788-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.382 seconds
+[2024-11-04T13:37:46.044-0800] {processor.py:186} INFO - Started process (PID=54548) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:37:46.045-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:37:46.045-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:37:46.045-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:37:46.052-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:37:46.182-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:37:46.182-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:37:46.386-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:37:46.386-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:37:46.390-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:37:46.390-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:37:46.398-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.356 seconds
+[2024-11-04T13:40:13.798-0800] {processor.py:186} INFO - Started process (PID=54746) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:40:13.799-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:40:13.799-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:40:13.799-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:40:13.807-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:40:14.028-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:40:14.028-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:40:14.234-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:40:14.234-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:40:14.239-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:40:14.239-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:40:14.245-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.448 seconds
+[2024-11-04T13:42:35.955-0800] {processor.py:186} INFO - Started process (PID=54913) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:42:35.956-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:42:35.956-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:42:35.956-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:42:35.964-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:42:36.170-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:42:36.170-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:42:36.396-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:42:36.396-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:42:36.401-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:42:36.401-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:42:36.408-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.454 seconds
+[2024-11-04T13:45:01.171-0800] {processor.py:186} INFO - Started process (PID=55086) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:45:01.171-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:45:01.172-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:45:01.172-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:45:01.179-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:45:01.332-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:45:01.332-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:45:01.513-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:45:01.513-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:45:01.517-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:45:01.517-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:45:01.523-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.353 seconds
+[2024-11-04T13:47:25.415-0800] {processor.py:186} INFO - Started process (PID=55260) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:47:25.416-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:47:25.416-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:47:25.416-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:47:25.423-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:47:25.598-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:47:25.597-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:47:25.786-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:47:25.785-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:47:25.789-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:47:25.789-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:47:25.795-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.381 seconds
+[2024-11-04T13:49:41.757-0800] {processor.py:186} INFO - Started process (PID=55440) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:49:41.758-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:49:41.758-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:49:41.758-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:49:41.765-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:49:41.939-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:49:41.939-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:49:42.125-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:49:42.124-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:49:42.130-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:49:42.130-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:49:42.138-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.383 seconds
+[2024-11-04T13:52:07.980-0800] {processor.py:186} INFO - Started process (PID=55609) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:52:07.981-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:52:07.982-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:52:07.982-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:52:07.989-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:52:08.155-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:52:08.155-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:52:08.370-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:52:08.370-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:52:08.375-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:52:08.375-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:52:08.384-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.405 seconds
+[2024-11-04T13:54:40.129-0800] {processor.py:186} INFO - Started process (PID=55792) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:54:40.130-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:54:40.130-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:54:40.130-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:54:40.137-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:54:40.311-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:54:40.311-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:54:40.536-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:54:40.536-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:54:40.541-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:54:40.541-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:54:40.547-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.419 seconds
+[2024-11-04T13:57:08.997-0800] {processor.py:186} INFO - Started process (PID=55992) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:57:08.998-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:57:08.998-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:57:08.998-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:57:09.005-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:57:09.196-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:57:09.196-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:57:09.391-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:57:09.391-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:57:09.398-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:57:09.398-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:57:09.406-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.410 seconds
+[2024-11-04T13:59:36.080-0800] {processor.py:186} INFO - Started process (PID=56171) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:59:36.081-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T13:59:36.081-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:59:36.081-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:59:36.089-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T13:59:36.235-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:59:36.235-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T13:59:36.421-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:59:36.421-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T13:59:36.424-0800] {logging_mixin.py:190} INFO - [2024-11-04T13:59:36.424-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T13:59:36.431-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.352 seconds
+[2024-11-04T14:02:04.227-0800] {processor.py:186} INFO - Started process (PID=56422) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:02:04.228-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T14:02:04.229-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:02:04.229-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:02:04.235-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:02:04.384-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:02:04.384-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T14:02:04.573-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:02:04.573-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:02:04.577-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:02:04.577-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T14:02:04.584-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.357 seconds
+[2024-11-04T14:04:31.037-0800] {processor.py:186} INFO - Started process (PID=56634) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:04:31.037-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T14:04:31.038-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:04:31.037-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:04:31.045-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:04:31.198-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:04:31.198-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T14:04:31.390-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:04:31.389-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:04:31.393-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:04:31.393-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T14:04:31.400-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.364 seconds
+[2024-11-04T14:06:55.667-0800] {processor.py:186} INFO - Started process (PID=56908) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:06:55.668-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T14:06:55.669-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:06:55.669-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:06:55.676-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:06:55.819-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:06:55.819-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T14:06:56.004-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:06:56.004-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:06:56.008-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:06:56.008-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T14:06:56.014-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.348 seconds
+[2024-11-04T14:09:18.274-0800] {processor.py:186} INFO - Started process (PID=57093) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:09:18.275-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T14:09:18.275-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:09:18.275-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:09:18.282-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:09:18.460-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:09:18.460-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T14:09:18.646-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:09:18.646-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:09:18.650-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:09:18.649-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T14:09:18.657-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.385 seconds
+[2024-11-04T14:21:24.249-0800] {processor.py:186} INFO - Started process (PID=57818) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:21:24.250-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T14:21:24.251-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.250-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:21:24.258-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:21:24.495-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.495-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T14:21:24.820-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.820-0800] {override.py:1907} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-11-04T14:21:24.826-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.826-0800] {override.py:1907} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-11-04T14:21:24.829-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.829-0800] {override.py:1907} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-11-04T14:21:24.833-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.833-0800] {override.py:1907} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-11-04T14:21:24.836-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.836-0800] {override.py:1907} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-11-04T14:21:24.839-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.839-0800] {override.py:1907} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-11-04T14:21:24.841-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.841-0800] {override.py:1907} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-11-04T14:21:24.842-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.842-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:21:24.846-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.846-0800] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2024-11-04T14:21:24.846-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:21:24.846-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T14:21:24.853-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.606 seconds
+[2024-11-04T14:23:38.798-0800] {processor.py:186} INFO - Started process (PID=58105) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:23:38.799-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T14:23:38.799-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:23:38.799-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:23:38.805-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:23:39.010-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:23:39.010-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T14:23:39.196-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:23:39.196-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:23:39.201-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:23:39.201-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T14:23:39.214-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.417 seconds
+[2024-11-04T14:31:50.390-0800] {processor.py:186} INFO - Started process (PID=58460) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:31:50.391-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T14:31:50.391-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:31:50.391-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:31:50.396-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T14:31:50.598-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:31:50.598-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T14:31:50.802-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:31:50.802-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:31:50.807-0800] {logging_mixin.py:190} INFO - [2024-11-04T14:31:50.807-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T14:31:50.820-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.431 seconds
+[2024-11-04T15:38:02.590-0800] {processor.py:186} INFO - Started process (PID=58833) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T15:38:02.591-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T15:38:02.591-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:38:02.591-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T15:38:02.597-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T15:38:02.853-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:38:02.853-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T15:38:03.080-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:38:03.080-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T15:38:03.085-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:38:03.084-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T15:38:03.093-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.505 seconds
+[2024-11-04T15:55:15.589-0800] {processor.py:186} INFO - Started process (PID=58952) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T15:55:15.589-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-04T15:55:15.590-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:55:15.590-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T15:55:15.597-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-04T15:55:15.773-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:55:15.773-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-11-04T15:55:15.975-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:55:15.975-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T15:55:15.980-0800] {logging_mixin.py:190} INFO - [2024-11-04T15:55:15.979-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-04T15:55:15.988-0800] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.401 seconds

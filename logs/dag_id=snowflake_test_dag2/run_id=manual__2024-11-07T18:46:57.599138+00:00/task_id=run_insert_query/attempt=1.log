@@ -1,0 +1,37 @@
+[2024-11-07T10:47:00.576-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-07T10:47:00.588-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snowflake_test_dag2.run_insert_query manual__2024-11-07T18:46:57.599138+00:00 [queued]>
+[2024-11-07T10:47:00.595-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snowflake_test_dag2.run_insert_query manual__2024-11-07T18:46:57.599138+00:00 [queued]>
+[2024-11-07T10:47:00.595-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-07T10:47:00.602-0800] {taskinstance.py:2889} INFO - Executing <Task(SnowflakeOperator): run_insert_query> on 2024-11-07 18:46:57.599138+00:00
+[2024-11-07T10:47:00.604-0800] {standard_task_runner.py:72} INFO - Started process 45667 to run task
+[2024-11-07T10:47:00.607-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'snowflake_test_dag2', 'run_insert_query', 'manual__2024-11-07T18:46:57.599138+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/insert_to_snowflake.py', '--cfg-path', '/var/folders/k9/54d2d9qd2nn0qz8m7425nxfm0000gn/T/tmp3qeplqj7']
+[2024-11-07T10:47:00.608-0800] {standard_task_runner.py:105} INFO - Job 22: Subtask run_insert_query
+[2024-11-07T10:47:00.651-0800] {task_command.py:467} INFO - Running <TaskInstance: snowflake_test_dag2.run_insert_query manual__2024-11-07T18:46:57.599138+00:00 [running]> on host mac.attlocal.net
+[2024-11-07T10:47:00.765-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='snowflake_test_dag2' AIRFLOW_CTX_TASK_ID='run_insert_query' AIRFLOW_CTX_EXECUTION_DATE='2024-11-07T18:46:57.599138+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-07T18:46:57.599138+00:00'
+[2024-11-07T10:47:00.767-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-07T10:47:00.767-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-07T10:47:00.767-0800] {logging_mixin.py:190} INFO - Current task name:run_insert_query state:running start_date:2024-11-07 18:47:00.588496+00:00
+[2024-11-07T10:47:00.768-0800] {logging_mixin.py:190} INFO - Dag name:snowflake_test_dag2 and current dag run status:running
+[2024-11-07T10:47:00.768-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-07T10:47:00.769-0800] {sql.py:278} INFO - Executing: INSERT INTO test_table  (test_time_stamp) SELECT CURRENT_TIMESTAMP();
+[2024-11-07T10:47:00.783-0800] {base.py:84} INFO - Retrieving connection 'snow_conn'
+[2024-11-07T10:47:00.823-0800] {base.py:84} INFO - Retrieving connection 'snow_conn'
+[2024-11-07T10:47:00.826-0800] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.10.15, Platform: macOS-15.0.1-arm64-arm-64bit
+[2024-11-07T10:47:00.826-0800] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-11-07T10:47:00.827-0800] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-07T10:47:01.873-0800] {cursor.py:1166} INFO - Number of results in first chunk: 1
+[2024-11-07T10:47:01.874-0800] {sql.py:544} INFO - Running statement: INSERT INTO test_table  (test_time_stamp) SELECT CURRENT_TIMESTAMP();, parameters: None
+[2024-11-07T10:47:03.861-0800] {sql.py:553} INFO - Rows affected: 1
+[2024-11-07T10:47:03.862-0800] {snowflake.py:447} INFO - Rows affected: 1
+[2024-11-07T10:47:03.862-0800] {snowflake.py:448} INFO - Snowflake query id: 01b837a7-0104-f7d0-0002-424e0002158e
+[2024-11-07T10:47:03.862-0800] {connection.py:789} INFO - closed
+[2024-11-07T10:47:03.909-0800] {connection.py:795} INFO - No async queries seem to be running, deleting session
+[2024-11-07T10:47:04.041-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-07T10:47:04.043-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=snowflake_test_dag2, task_id=run_insert_query, run_id=manual__2024-11-07T18:46:57.599138+00:00, execution_date=20241107T184657, start_date=20241107T184700, end_date=20241107T184704
+[2024-11-07T10:47:04.068-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-07T10:47:04.069-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-07T10:47:04.069-0800] {logging_mixin.py:190} INFO - Dag name:snowflake_test_dag2 queued_at:2024-11-07 18:46:57.605134+00:00
+[2024-11-07T10:47:04.069-0800] {logging_mixin.py:190} INFO - Task hostname:mac.attlocal.net operator:SnowflakeOperator
+[2024-11-07T10:47:04.104-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-07T10:47:04.117-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-07T10:47:04.117-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

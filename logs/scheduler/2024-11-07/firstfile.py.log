@@ -1,0 +1,144 @@
+[2024-11-07T10:03:12.806-0800] {processor.py:186} INFO - Started process (PID=37026) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:03:12.808-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:03:12.809-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:03:12.809-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:03:13.135-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:03:13.139-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:03:13.194-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:03:13.194-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:03:13.201-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:03:13.201-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:03:13.213-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.409 seconds
+[2024-11-07T10:03:44.361-0800] {processor.py:186} INFO - Started process (PID=37155) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:03:44.363-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:03:44.364-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:03:44.364-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:03:44.778-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:03:44.780-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:03:44.832-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:03:44.832-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:03:44.837-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:03:44.837-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:03:44.846-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.487 seconds
+[2024-11-07T10:04:16.084-0800] {processor.py:186} INFO - Started process (PID=37280) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:04:16.087-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:04:16.087-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:04:16.087-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:04:16.588-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:04:16.590-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:04:16.641-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:04:16.641-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:04:16.646-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:04:16.646-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:04:16.657-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.574 seconds
+[2024-11-07T10:04:47.873-0800] {processor.py:186} INFO - Started process (PID=37414) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:04:47.875-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:04:47.876-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:04:47.876-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:04:48.291-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:04:48.293-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:04:48.358-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:04:48.357-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:04:48.364-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:04:48.364-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:04:48.374-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.502 seconds
+[2024-11-07T10:05:19.299-0800] {processor.py:186} INFO - Started process (PID=37544) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:05:19.302-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:05:19.302-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:05:19.302-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:05:19.708-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:05:19.710-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:05:19.766-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:05:19.766-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:05:19.773-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:05:19.772-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:05:19.786-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.488 seconds
+[2024-11-07T10:05:50.810-0800] {processor.py:186} INFO - Started process (PID=37673) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:05:50.812-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:05:50.813-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:05:50.813-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:05:51.233-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:05:51.235-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:05:51.292-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:05:51.292-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:05:51.299-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:05:51.299-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:05:51.311-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.502 seconds
+[2024-11-07T10:06:22.424-0800] {processor.py:186} INFO - Started process (PID=37803) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:06:22.428-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:06:22.429-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:06:22.429-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:06:22.886-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:06:22.888-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:06:22.953-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:06:22.953-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:06:22.960-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:06:22.960-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:06:22.972-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.549 seconds
+[2024-11-07T10:06:55.762-0800] {processor.py:186} INFO - Started process (PID=37929) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:06:55.765-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:06:55.766-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:06:55.766-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:06:56.555-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:06:56.558-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:06:56.614-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:06:56.614-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:06:56.620-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:06:56.620-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:06:56.632-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.872 seconds
+[2024-11-07T10:07:27.959-0800] {processor.py:186} INFO - Started process (PID=38051) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:07:27.962-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:07:27.963-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:07:27.963-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:07:28.367-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:07:28.369-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:07:28.424-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:07:28.424-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:07:28.430-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:07:28.430-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:07:28.441-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.483 seconds
+[2024-11-07T10:07:59.468-0800] {processor.py:186} INFO - Started process (PID=38183) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:07:59.470-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:07:59.471-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:07:59.471-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:07:59.891-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:07:59.893-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:07:59.949-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:07:59.949-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:07:59.955-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:07:59.955-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:07:59.967-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.500 seconds
+[2024-11-07T10:08:31.337-0800] {processor.py:186} INFO - Started process (PID=38311) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:08:31.339-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:08:31.340-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:08:31.340-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:08:31.760-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:08:31.762-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:08:31.817-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:08:31.817-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:08:31.823-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:08:31.823-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:08:31.836-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.500 seconds
+[2024-11-07T10:18:58.999-0800] {processor.py:186} INFO - Started process (PID=38715) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:18:59.002-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:18:59.002-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:18:59.002-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:18:59.314-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:18:59.317-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:18:59.369-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:18:59.369-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:18:59.375-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:18:59.375-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:18:59.385-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.388 seconds
+[2024-11-07T10:19:30.362-0800] {processor.py:186} INFO - Started process (PID=38839) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:19:30.365-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:19:30.365-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:19:30.365-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:19:30.781-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:19:30.783-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:19:30.833-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:19:30.833-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:19:30.839-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:19:30.839-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:19:30.849-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.487 seconds
+[2024-11-07T10:20:01.843-0800] {processor.py:186} INFO - Started process (PID=38963) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:20:01.845-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:20:01.846-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:20:01.846-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:20:02.272-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:20:02.274-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:20:02.324-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:20:02.324-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:20:02.329-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:20:02.329-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:20:02.338-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.496 seconds
+[2024-11-07T10:20:33.733-0800] {processor.py:186} INFO - Started process (PID=39096) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:20:33.735-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:20:33.736-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:20:33.736-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:20:34.164-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:20:34.165-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:20:34.219-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:20:34.219-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:20:34.225-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:20:34.225-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:20:34.233-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.502 seconds
+[2024-11-07T10:21:05.550-0800] {processor.py:186} INFO - Started process (PID=39231) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:21:05.553-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:21:05.553-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:21:05.553-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:21:06.030-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:21:06.032-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:21:06.128-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:21:06.128-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:21:06.135-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:21:06.135-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:21:06.145-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.596 seconds
+[2024-11-07T10:21:37.480-0800] {processor.py:186} INFO - Started process (PID=39355) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:21:37.483-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:21:37.484-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:21:37.484-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:21:37.834-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:21:37.835-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:21:37.891-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:21:37.890-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:21:37.897-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:21:37.897-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:21:37.906-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.427 seconds
+[2024-11-07T10:22:09.040-0800] {processor.py:186} INFO - Started process (PID=39482) to work on /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:22:09.043-0800] {processor.py:914} INFO - Processing file /Users/saiprasadreddykolan/airflow/dags/firstfile.py for tasks to queue
+[2024-11-07T10:22:09.043-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:22:09.043-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:22:09.402-0800] {logging_mixin.py:190} WARNING - /Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-11-07T10:22:09.404-0800] {processor.py:925} INFO - DAG(s) 'asnowflake_test_dag' retrieved from /Users/saiprasadreddykolan/airflow/dags/firstfile.py
+[2024-11-07T10:22:09.456-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:22:09.456-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T10:22:09.462-0800] {logging_mixin.py:190} INFO - [2024-11-07T10:22:09.462-0800] {dag.py:4180} INFO - Setting next_dagrun for asnowflake_test_dag to None, run_after=None
+[2024-11-07T10:22:09.470-0800] {processor.py:208} INFO - Processing /Users/saiprasadreddykolan/airflow/dags/firstfile.py took 0.431 seconds

@@ -1,0 +1,36 @@
+[2024-10-30T13:42:06.731-0700] {processor.py:186} INFO - Started process (PID=6089) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:42:06.732-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-10-30T13:42:06.732-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:42:06.732-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:42:06.737-0700] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:42:06.882-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:42:06.882-0700] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-30T13:42:07.103-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:42:07.103-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-10-30T13:42:07.106-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:42:07.106-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-10-30T13:42:07.107-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:42:07.107-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-10-30T13:42:07.114-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.383 seconds
+[2024-10-30T13:43:52.008-0700] {processor.py:186} INFO - Started process (PID=6249) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:43:52.010-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-10-30T13:43:52.010-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:43:52.010-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:43:52.014-0700] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:43:52.160-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:43:52.160-0700] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-30T13:43:52.383-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:43:52.382-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-10-30T13:43:52.388-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:43:52.388-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-10-30T13:43:52.390-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:43:52.390-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-10-30T13:43:52.397-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.389 seconds
+[2024-10-30T13:46:19.285-0700] {processor.py:186} INFO - Started process (PID=6463) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:46:19.286-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-10-30T13:46:19.286-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:46:19.286-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:46:19.291-0700] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T13:46:19.461-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:46:19.461-0700] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-30T13:46:19.655-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:46:19.655-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-10-30T13:46:19.660-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:46:19.660-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-10-30T13:46:19.662-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:46:19.662-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-10-30T13:46:19.668-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.385 seconds
+[2024-10-30T15:05:46.616-0700] {processor.py:186} INFO - Started process (PID=6720) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T15:05:46.617-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-10-30T15:05:46.618-0700] {logging_mixin.py:190} INFO - [2024-10-30T15:05:46.618-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T15:05:46.622-0700] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-10-30T15:05:46.765-0700] {logging_mixin.py:190} INFO - [2024-10-30T15:05:46.765-0700] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-30T15:05:46.953-0700] {logging_mixin.py:190} INFO - [2024-10-30T15:05:46.953-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-10-30T15:05:46.957-0700] {logging_mixin.py:190} INFO - [2024-10-30T15:05:46.957-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-10-30T15:05:46.958-0700] {logging_mixin.py:190} INFO - [2024-10-30T15:05:46.958-0700] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-10-30T15:05:46.963-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.347 seconds

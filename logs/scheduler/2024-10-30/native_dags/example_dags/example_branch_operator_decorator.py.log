@@ -1,0 +1,20 @@
+[2024-10-30T13:42:26.917-0700] {processor.py:186} INFO - Started process (PID=6112) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:42:26.918-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-10-30T13:42:26.918-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:42:26.918-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:42:26.927-0700] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:42:26.953-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.037 seconds
+[2024-10-30T13:44:54.697-0700] {processor.py:186} INFO - Started process (PID=6348) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:44:54.698-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-10-30T13:44:54.698-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:44:54.698-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:44:54.706-0700] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:44:54.732-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-10-30T13:47:21.539-0700] {processor.py:186} INFO - Started process (PID=6560) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:47:21.540-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-10-30T13:47:21.540-0700] {logging_mixin.py:190} INFO - [2024-10-30T13:47:21.540-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:47:21.548-0700] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T13:47:21.574-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-10-30T16:05:09.102-0700] {processor.py:186} INFO - Started process (PID=6860) to work on /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T16:05:09.103-0700] {processor.py:914} INFO - Processing file /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-10-30T16:05:09.103-0700] {logging_mixin.py:190} INFO - [2024-10-30T16:05:09.103-0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T16:05:09.111-0700] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-10-30T16:05:09.137-0700] {processor.py:208} INFO - Processing /opt/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds

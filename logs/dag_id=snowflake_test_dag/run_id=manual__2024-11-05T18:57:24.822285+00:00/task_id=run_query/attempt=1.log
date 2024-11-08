@@ -1,0 +1,154 @@
+[2024-11-05T10:57:26.934-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T10:57:26.945-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snowflake_test_dag.run_query manual__2024-11-05T18:57:24.822285+00:00 [queued]>
+[2024-11-05T10:57:26.949-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snowflake_test_dag.run_query manual__2024-11-05T18:57:24.822285+00:00 [queued]>
+[2024-11-05T10:57:26.949-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-05T10:57:26.955-0800] {taskinstance.py:2889} INFO - Executing <Task(SnowflakeOperator): run_query> on 2024-11-05 18:57:24.822285+00:00
+[2024-11-05T10:57:26.958-0800] {standard_task_runner.py:72} INFO - Started process 95933 to run task
+[2024-11-05T10:57:26.963-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'snowflake_test_dag', 'run_query', 'manual__2024-11-05T18:57:24.822285+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/firstfile.py', '--cfg-path', '/var/folders/k9/54d2d9qd2nn0qz8m7425nxfm0000gn/T/tmpwmucu41z']
+[2024-11-05T10:57:26.964-0800] {standard_task_runner.py:105} INFO - Job 11: Subtask run_query
+[2024-11-05T10:57:27.013-0800] {task_command.py:467} INFO - Running <TaskInstance: snowflake_test_dag.run_query manual__2024-11-05T18:57:24.822285+00:00 [running]> on host mac.attlocal.net
+[2024-11-05T10:57:27.070-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='snowflake_test_dag' AIRFLOW_CTX_TASK_ID='run_query' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T18:57:24.822285+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-05T18:57:24.822285+00:00'
+[2024-11-05T10:57:27.071-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-05T10:57:27.071-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-05T10:57:27.071-0800] {logging_mixin.py:190} INFO - Current task name:run_query state:running start_date:2024-11-05 18:57:26.946011+00:00
+[2024-11-05T10:57:27.071-0800] {logging_mixin.py:190} INFO - Dag name:snowflake_test_dag and current dag run status:running
+[2024-11-05T10:57:27.072-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T10:57:27.072-0800] {sql.py:278} INFO - Executing: SELECT CURRENT_TIMESTAMP();
+[2024-11-05T10:57:27.085-0800] {base.py:84} INFO - Retrieving connection 'Snow_conn'
+[2024-11-05T10:57:27.098-0800] {base.py:84} INFO - Retrieving connection 'Snow_conn'
+[2024-11-05T10:57:27.099-0800] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.10.15, Platform: macOS-15.0.1-arm64-arm-64bit
+[2024-11-05T10:57:27.100-0800] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-11-05T10:57:27.101-0800] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-05T10:57:27.422-0800] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 429, in run
+    with closing(self.get_conn()) as conn:
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 303, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 457, in __init__
+    self.connect(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 772, in connect
+    self.__open_connection()
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1100, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1387, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1415, in _authenticate
+    auth.authenticate(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/auth/_auth.py", line 264, in authenticate
+    ret = self._rest._post_request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 740, in _post_request
+    ret = self.fetch(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 855, in fetch
+    ret = self._request_exec_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 983, in _request_exec_wrapper
+    raise e
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 905, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1182, in _request_exec
+    raise err
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1131, in _request_exec
+    raise_failed_request_error(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 231, in raise_failed_request_error
+    Error.errorhandler_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.InterfaceError: 250003 (08001): None: 404 Not Found: post https://of30041.us-west-2.snowflakecomputing.com:443/session/v1/login-request?request_id=fe74dc7b-9245-455b-89d3-434462454d48&databaseName=E_COMMERCE_DB&schemaName=DATASETS&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7d21eaf4-dbae-4e81-83a3-196edf1d3e5b
+[2024-11-05T10:57:27.433-0800] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-05T10:57:27.434-0800] {logging_mixin.py:190} INFO - Task start:2024-11-05 18:57:26.946011+00:00 end:2024-11-05 18:57:27.433394+00:00 duration:0.487383
+[2024-11-05T10:57:27.434-0800] {logging_mixin.py:190} INFO - Task:<Task(SnowflakeOperator): run_query> dag:<DAG: snowflake_test_dag> dagrun:<DagRun snowflake_test_dag @ 2024-11-05 18:57:24.822285+00:00: manual__2024-11-05T18:57:24.822285+00:00, state:running, queued_at: 2024-11-05 18:57:24.835574+00:00. externally triggered: True>
+[2024-11-05T10:57:27.434-0800] {logging_mixin.py:190} INFO - Failure caused by 250003 (08001): None: 404 Not Found: post https://of30041.us-west-2.snowflakecomputing.com:443/session/v1/login-request?request_id=fe74dc7b-9245-455b-89d3-434462454d48&databaseName=E_COMMERCE_DB&schemaName=DATASETS&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7d21eaf4-dbae-4e81-83a3-196edf1d3e5b
+[2024-11-05T10:57:27.435-0800] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=snowflake_test_dag, task_id=run_query, run_id=manual__2024-11-05T18:57:24.822285+00:00, execution_date=20241105T185724, start_date=20241105T185726, end_date=20241105T185727
+[2024-11-05T10:57:27.442-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T10:57:27.442-0800] {standard_task_runner.py:124} ERROR - Failed to execute job 11 for task run_query (250003 (08001): None: 404 Not Found: post https://of30041.us-west-2.snowflakecomputing.com:443/session/v1/login-request?request_id=fe74dc7b-9245-455b-89d3-434462454d48&databaseName=E_COMMERCE_DB&schemaName=DATASETS&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7d21eaf4-dbae-4e81-83a3-196edf1d3e5b; 95933)
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 429, in run
+    with closing(self.get_conn()) as conn:
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 303, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 457, in __init__
+    self.connect(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 772, in connect
+    self.__open_connection()
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1100, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1387, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1415, in _authenticate
+    auth.authenticate(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/auth/_auth.py", line 264, in authenticate
+    ret = self._rest._post_request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 740, in _post_request
+    ret = self.fetch(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 855, in fetch
+    ret = self._request_exec_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 983, in _request_exec_wrapper
+    raise e
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 905, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1182, in _request_exec
+    raise err
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1131, in _request_exec
+    raise_failed_request_error(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 231, in raise_failed_request_error
+    Error.errorhandler_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.InterfaceError: 250003 (08001): None: 404 Not Found: post https://of30041.us-west-2.snowflakecomputing.com:443/session/v1/login-request?request_id=fe74dc7b-9245-455b-89d3-434462454d48&databaseName=E_COMMERCE_DB&schemaName=DATASETS&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7d21eaf4-dbae-4e81-83a3-196edf1d3e5b
+[2024-11-05T10:57:27.465-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-05T10:57:27.482-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T10:57:27.483-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,272 @@
+[2024-11-05T10:29:15.819-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T10:29:15.833-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: aasnowflake_test_dag.run_query manual__2024-11-05T18:29:13.690094+00:00 [queued]>
+[2024-11-05T10:29:15.837-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: aasnowflake_test_dag.run_query manual__2024-11-05T18:29:13.690094+00:00 [queued]>
+[2024-11-05T10:29:15.837-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-05T10:29:15.845-0800] {taskinstance.py:2889} INFO - Executing <Task(SnowflakeOperator): run_query> on 2024-11-05 18:29:13.690094+00:00
+[2024-11-05T10:29:15.849-0800] {standard_task_runner.py:72} INFO - Started process 88860 to run task
+[2024-11-05T10:29:15.852-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'aasnowflake_test_dag', 'run_query', 'manual__2024-11-05T18:29:13.690094+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/firstfile.py', '--cfg-path', '/var/folders/k9/54d2d9qd2nn0qz8m7425nxfm0000gn/T/tmpp1_t7nu6']
+[2024-11-05T10:29:15.853-0800] {standard_task_runner.py:105} INFO - Job 8: Subtask run_query
+[2024-11-05T10:29:15.897-0800] {task_command.py:467} INFO - Running <TaskInstance: aasnowflake_test_dag.run_query manual__2024-11-05T18:29:13.690094+00:00 [running]> on host mac.attlocal.net
+[2024-11-05T10:29:15.952-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='aasnowflake_test_dag' AIRFLOW_CTX_TASK_ID='run_query' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T18:29:13.690094+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-05T18:29:13.690094+00:00'
+[2024-11-05T10:29:15.953-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-05T10:29:15.953-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-05T10:29:15.954-0800] {logging_mixin.py:190} INFO - Current task name:run_query state:running start_date:2024-11-05 18:29:15.833371+00:00
+[2024-11-05T10:29:15.954-0800] {logging_mixin.py:190} INFO - Dag name:aasnowflake_test_dag and current dag run status:running
+[2024-11-05T10:29:15.954-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T10:29:15.954-0800] {sql.py:278} INFO - Executing: SELECT CURRENT_TIMESTAMP();
+[2024-11-05T10:29:15.965-0800] {base.py:84} INFO - Retrieving connection 'snow_conn'
+[2024-11-05T10:29:15.978-0800] {base.py:84} INFO - Retrieving connection 'snow_conn'
+[2024-11-05T10:29:15.978-0800] {connection.py:414} INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.10.15, Platform: macOS-15.0.1-arm64-arm-64bit
+[2024-11-05T10:29:15.979-0800] {connection.py:1197} INFO - Connecting to GLOBAL Snowflake domain
+[2024-11-05T10:29:15.979-0800] {connection.py:1278} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-05T10:29:16.361-0800] {connection.py:547} WARNING - Certificate did not match expected hostname: ifgigdd.of30041.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2024-11-05T10:29:16.362-0800] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'"))': /session/v1/login-request?request_id=856d71ad-0dad-4da7-8e96-39df0179d86c&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7636bd14-74fe-4287-bc51-f39650d59005
+[2024-11-05T10:29:16.551-0800] {connection.py:547} WARNING - Certificate did not match expected hostname: ifgigdd.of30041.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2024-11-05T10:29:17.760-0800] {connection.py:547} WARNING - Certificate did not match expected hostname: ifgigdd.of30041.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2024-11-05T10:29:17.761-0800] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'"))': /session/v1/login-request?request_id=7b6f9e74-d7cc-4221-8c26-804d4b89ba23&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=bf8c38e4-8079-4e2b-8f89-c5b29f4b4f74
+[2024-11-05T10:29:17.938-0800] {connection.py:547} WARNING - Certificate did not match expected hostname: ifgigdd.of30041.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2024-11-05T10:29:17.941-0800] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 472, in connect
+    _match_hostname(cert, self.assert_hostname or server_hostname)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 545, in _match_hostname
+    match_hostname(cert, asserted_hostname)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/util/ssl_match_hostname.py", line 150, in match_hostname
+    raise CertificateError(
+snowflake.connector.vendored.urllib3.util.ssl_match_hostname.CertificateError: hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 827, in urlopen
+    return self.urlopen(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+snowflake.connector.vendored.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ifgigdd.of30041.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=856d71ad-0dad-4da7-8e96-39df0179d86c&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7636bd14-74fe-4287-bc51-f39650d59005 (Caused by SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1072, in _request_exec
+    raw_ret = session.request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+snowflake.connector.vendored.requests.exceptions.SSLError: HTTPSConnectionPool(host='ifgigdd.of30041.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=856d71ad-0dad-4da7-8e96-39df0179d86c&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7636bd14-74fe-4287-bc51-f39650d59005 (Caused by SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1415, in _authenticate
+    auth.authenticate(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/auth/_auth.py", line 264, in authenticate
+    ret = self._rest._post_request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 740, in _post_request
+    ret = self.fetch(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 855, in fetch
+    ret = self._request_exec_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 983, in _request_exec_wrapper
+    raise e
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 905, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1142, in _request_exec
+    Error.errorhandler_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.OperationalError: 250003: 250003: Hit non-retryable SSL error, HTTPSConnectionPool(host='ifgigdd.of30041.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=856d71ad-0dad-4da7-8e96-39df0179d86c&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7636bd14-74fe-4287-bc51-f39650d59005 (Caused by SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'"))).
+Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 429, in run
+    with closing(self.get_conn()) as conn:
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 303, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 457, in __init__
+    self.connect(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 772, in connect
+    self.__open_connection()
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1100, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1387, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1461, in _authenticate
+    raise auth_op from e
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1436, in _authenticate
+    auth_instance.handle_timeout(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/auth/by_plugin.py", line 212, in handle_timeout
+    raise error
+snowflake.connector.errors.OperationalError: 250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+[2024-11-05T10:29:17.956-0800] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-05T10:29:17.956-0800] {logging_mixin.py:190} INFO - Task start:2024-11-05 18:29:15.833371+00:00 end:2024-11-05 18:29:17.955778+00:00 duration:2.122407
+[2024-11-05T10:29:17.956-0800] {logging_mixin.py:190} INFO - Task:<Task(SnowflakeOperator): run_query> dag:<DAG: aasnowflake_test_dag> dagrun:<DagRun aasnowflake_test_dag @ 2024-11-05 18:29:13.690094+00:00: manual__2024-11-05T18:29:13.690094+00:00, state:running, queued_at: 2024-11-05 18:29:13.698771+00:00. externally triggered: True>
+[2024-11-05T10:29:17.956-0800] {logging_mixin.py:190} INFO - Failure caused by 250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+[2024-11-05T10:29:17.957-0800] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=aasnowflake_test_dag, task_id=run_query, run_id=manual__2024-11-05T18:29:13.690094+00:00, execution_date=20241105T182913, start_date=20241105T182915, end_date=20241105T182917
+[2024-11-05T10:29:17.965-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T10:29:17.965-0800] {standard_task_runner.py:124} ERROR - Failed to execute job 8 for task run_query (250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.; 88860)
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 472, in connect
+    _match_hostname(cert, self.assert_hostname or server_hostname)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 545, in _match_hostname
+    match_hostname(cert, asserted_hostname)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/util/ssl_match_hostname.py", line 150, in match_hostname
+    raise CertificateError(
+snowflake.connector.vendored.urllib3.util.ssl_match_hostname.CertificateError: hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 827, in urlopen
+    return self.urlopen(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+snowflake.connector.vendored.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ifgigdd.of30041.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=856d71ad-0dad-4da7-8e96-39df0179d86c&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7636bd14-74fe-4287-bc51-f39650d59005 (Caused by SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1072, in _request_exec
+    raw_ret = session.request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/vendored/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+snowflake.connector.vendored.requests.exceptions.SSLError: HTTPSConnectionPool(host='ifgigdd.of30041.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=856d71ad-0dad-4da7-8e96-39df0179d86c&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7636bd14-74fe-4287-bc51-f39650d59005 (Caused by SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1415, in _authenticate
+    auth.authenticate(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/auth/_auth.py", line 264, in authenticate
+    ret = self._rest._post_request(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 740, in _post_request
+    ret = self.fetch(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 855, in fetch
+    ret = self._request_exec_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 983, in _request_exec_wrapper
+    raise e
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 905, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/network.py", line 1142, in _request_exec
+    Error.errorhandler_wrapper(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.OperationalError: 250003: 250003: Hit non-retryable SSL error, HTTPSConnectionPool(host='ifgigdd.of30041.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=856d71ad-0dad-4da7-8e96-39df0179d86c&databaseName=E_COMMERCE_DB&schemaName=Datasets&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=7636bd14-74fe-4287-bc51-f39650d59005 (Caused by SSLError(CertificateError("hostname 'ifgigdd.of30041.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'"))).
+Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 284, in execute
+    output = hook.run(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 429, in run
+    with closing(self.get_conn()) as conn:
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 303, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 457, in __init__
+    self.connect(**kwargs)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 772, in connect
+    self.__open_connection()
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1100, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1387, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1461, in _authenticate
+    raise auth_op from e
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/connection.py", line 1436, in _authenticate
+    auth_instance.handle_timeout(
+  File "/Users/saiprasadreddykolan/Documents/E-commerce_project/venv/lib/python3.10/site-packages/snowflake/connector/auth/by_plugin.py", line 212, in handle_timeout
+    raise error
+snowflake.connector.errors.OperationalError: 250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+Verify that the hostnames and port numbers in SYSTEM$ALLOWLIST are added to your firewall's allowed list.
+To further troubleshoot your connection you may reference the following article: https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview.
+[2024-11-05T10:29:17.998-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-05T10:29:18.018-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T10:29:18.019-0800] {local_task_job_runner.py:245} INFO - ::endgroup::
